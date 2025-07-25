@@ -18,23 +18,23 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({
-  tagline = "AI-Powered",
-  heading = "Transform your workflow with <br />intelligent automation",
-  description = "Streamline operations with our cutting-edge AI platform.",
-  primaryButtonText = "Start Free Trial",
-  secondaryButtonText = "Learn More",
+  tagline = "LEAFCEL",
+  heading = "Estratégia. Tecnologia. <br />Resultados.",
+  description = "Consultoria empresarial e tecnológica para empresas com ambição global. Da estrutura à execução, transformamos desafios em crescimento sustentável.",
+  primaryButtonText = "Agende um Diagnóstico",
+  secondaryButtonText = "Ver Soluções",
   features = [
     {
-      title: "Smart Analytics",
-      description: "Leverage machine learning to gain deep insights from your data. Our AI analyzes patterns to provide actionable recommendations."
+      title: "Diagnóstico estratégico completo",
+      description: "Análise profunda e personalizada do seu negócio com foco em resultados mensuráveis."
     },
     {
-      title: "Auto Processing", 
-      description: "Automate repetitive tasks with intelligent document processing. Our neural networks reduce manual effort by 90%."
+      title: "Equipa multidisciplinar", 
+      description: "Profissionais com experiência nas áreas críticas da sua empresa para garantir execução de excelência."
     },
     {
-      title: "Real-time Insights",
-      description: "Get instant predictions powered by advanced AI models. Make data-driven decisions with our real-time analytics dashboard."
+      title: "Atuação global",
+      description: "Capacidade de operação em diversos mercados e setores com tecnologia de última geração."
     }
   ]
 }: HeroSectionProps) => {

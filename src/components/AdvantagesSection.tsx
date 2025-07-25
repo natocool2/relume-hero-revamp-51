@@ -1,44 +1,44 @@
-import { Clock, Cpu, Target, TrendingUp, DollarSign, Headphones, ArrowRight } from "lucide-react";
+import { Clock, Cpu, Target, TrendingUp, DollarSign, Headphones, ArrowRight, Building2, Users, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
 const advantages = [
   {
-    icon: Clock,
-    title: "Automated Workflows",
-    description: "Eliminate repetitive tasks and save valuable time with intelligent automation"
+    icon: Target,
+    title: "Consultoria empresarial e tecnológica",
+    description: "Diagnóstico estratégico, estruturação de negócios, processos e digitalização"
+  },
+  {
+    icon: Users,
+    title: "Formação profissional e empresarial", 
+    description: "Programas práticos e personalizados em gestão, vendas, tecnologia e inovação"
+  },
+  {
+    icon: Building2,
+    title: "Criação de empresas",
+    description: "Abertura legal, branding, plano de negócio e suporte total para operação"
   },
   {
     icon: Cpu,
-    title: "AI-Powered Intelligence", 
-    description: "Leverage advanced machine learning to optimize your business processes"
-  },
-  {
-    icon: Target,
-    title: "Smart Decision Making",
-    description: "Make data-driven decisions with real-time insights and predictive analytics"
-  },
-  {
-    icon: TrendingUp,
-    title: "Enhanced Productivity",
-    description: "Boost team efficiency and achieve higher performance with automation"
+    title: "Desenvolvimento de plataformas com IA",
+    description: "Soluções digitais personalizadas, com foco em escalabilidade e performance"
   },
   {
     icon: DollarSign,
-    title: "Cost Optimization",
-    description: "Reduce operational expenses and maximize ROI through intelligent systems"
+    title: "Captação de investimento",
+    description: "Planeamento estratégico, elaboração de candidaturas e gestão de financiamento"
   },
   {
-    icon: Headphones,
-    title: "24/7 AI Support",
-    description: "Get instant assistance and guidance from our intelligent support system"
+    icon: Globe,
+    title: "Internacionalização e franchising",
+    description: "Expansão estruturada com suporte jurídico, operacional e estratégico"
   }
 ];
 
 const links = [
-  "See automation in action",
-  "Explore AI capabilities", 
-  "Discover smart features"
+  "Ver soluções em ação",
+  "Explorar capacidades", 
+  "Descobrir serviços"
 ];
 
 const AdvantagesSection = () => {
@@ -61,7 +61,7 @@ const AdvantagesSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              The Advantages of Using Our Platform
+              Soluções integradas em todas as etapas do seu negócio
             </motion.h2>
             <motion.p 
               className="text-lg md:text-xl leading-relaxed text-muted-foreground opacity-70"
@@ -70,7 +70,7 @@ const AdvantagesSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Here are the benefits you'll gain with our intelligent automation platform
+              Uma abordagem completa para quem quer ir mais longe
             </motion.p>
           </div>
 
@@ -86,7 +86,7 @@ const AdvantagesSection = () => {
             >
               {/* Description */}
               <p className="text-base font-medium text-foreground leading-relaxed">
-                Transform your workflow with AI automation and streamline operations efficiently.
+                Unimos pensamento estratégico, domínio tecnológico e execução prática para entregar valor real aos nossos clientes.
               </p>
 
               {/* Links */}
@@ -111,7 +111,7 @@ const AdvantagesSection = () => {
                 className="w-full bg-primary/50 hover:bg-primary/70 text-foreground rounded-full py-3"
                 size="lg"
               >
-                Start Free Trial
+                Agende um Diagnóstico
               </Button>
             </motion.div>
 

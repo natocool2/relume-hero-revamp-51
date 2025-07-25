@@ -9,9 +9,9 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="flex flex-col gap-6 lg:max-w-[400px]">
             <div className="flex flex-col gap-4">
-              <h3 className="text-white text-2xl font-semibold">Cosmofy</h3>
+              <h3 className="text-white text-2xl font-semibold">LEAFCEL</h3>
               <p className="text-[#B2B2B2] text-base leading-6">
-                Revolutionizing eCommerce with AI-powered solutions for personalized shopping experiences and optimized revenue streams.
+                Consultoria empresarial e tecnológica especializada em estruturar negócios, acelerar a inovação e escalar resultados com soluções integradas.
               </p>
             </div>
             
@@ -34,36 +34,36 @@ const Footer = () => {
           
           {/* Links Sections */}
           <div className="flex flex-col sm:flex-row gap-12 lg:gap-16">
-            {/* Product Links */}
+            {/* Services Links */}
             <div className="flex flex-col gap-6">
-              <h4 className="text-white text-lg font-medium">Product</h4>
+              <h4 className="text-white text-lg font-medium">Serviços</h4>
               <div className="flex flex-col gap-4">
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Features</a>
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Analytics</a>
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Automation</a>
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Integrations</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Consultoria</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Formação</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Criação de Empresas</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Desenvolvimento IA</a>
               </div>
             </div>
             
             {/* Company Links */}
             <div className="flex flex-col gap-6">
-              <h4 className="text-white text-lg font-medium">Company</h4>
+              <h4 className="text-white text-lg font-medium">Empresa</h4>
               <div className="flex flex-col gap-4">
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">About</a>
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Blog</a>
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Careers</a>
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Contact</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Sobre Nós</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Missão</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Valores</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Contacto</a>
               </div>
             </div>
             
             {/* Support Links */}
             <div className="flex flex-col gap-6">
-              <h4 className="text-white text-lg font-medium">Support</h4>
+              <h4 className="text-white text-lg font-medium">Suporte</h4>
               <div className="flex flex-col gap-4">
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Help Center</a>
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Documentation</a>
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">API Reference</a>
-                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Status</a>
+                <a href="mailto:geral@leafcel.com" className="text-[#B2B2B2] text-base hover:text-white transition-colors">geral@leafcel.com</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">WhatsApp Business</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Diagnóstico</a>
+                <a href="#" className="text-[#B2B2B2] text-base hover:text-white transition-colors">Newsletter</a>
               </div>
             </div>
           </div>
@@ -72,12 +72,11 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="w-full pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-[#B2B2B2] text-sm">
-            © 2024 Cosmofy. All rights reserved.
+            © 2025 LEAFCEL. Todos os direitos reservados.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-[#B2B2B2] text-sm hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-[#B2B2B2] text-sm hover:text-white transition-colors">Terms of Service</a>
-            <a href="#" className="text-[#B2B2B2] text-sm hover:text-white transition-colors">Cookie Policy</a>
+            <a href="#" className="text-[#B2B2B2] text-sm hover:text-white transition-colors">Política de Privacidade</a>
+            <a href="#" className="text-[#B2B2B2] text-sm hover:text-white transition-colors">Termos de Uso</a>
           </div>
         </div>
       </div>
