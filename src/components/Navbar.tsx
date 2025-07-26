@@ -180,8 +180,8 @@ const SubMenu = ({ navLink, isMobile }: { navLink: NavLink; isMobile: boolean })
 export const NavbarDefaults: Props = {
   logo: {
     url: "#",
-    src: "/lovable-uploads/ed1d58f8-74fe-43da-bbb9-56e4747b91ec.png",
-    alt: "Logo image",
+    src: "/lovable-uploads/e22dcb15-dbec-496c-9d16-5f047d6941ca.png",
+    alt: "LEAFCEL Logo",
   },
   navLinks: [
     { title: "Home", url: "#" },
