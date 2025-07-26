@@ -93,7 +93,7 @@ const HeroSection = ({
       {/* Hero Section */}
       <section className="px-4 md:px-16 py-28 overflow-hidden relative z-10 transform -translate-y-[5%] md:translate-y-0">
         <div className="max-w-6xl mx-auto">
-          <div className="max-w-3xl">
+          <div className="max-w-2xl md:max-w-lg lg:max-w-xl">
             <motion.div 
               className="space-y-8"
               initial={{ opacity: 0, y: 50 }}
