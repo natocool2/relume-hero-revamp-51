@@ -116,7 +116,7 @@ export const ServicesColumn = ({
                     <div className="space-y-2">
                       {service.items.map((item, itemIndex) => (
                         <div key={itemIndex} className="flex items-start gap-2">
-                          <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                          <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
                           <p className="text-neutral-300 text-sm leading-relaxed">
                             {item}
                           </p>
