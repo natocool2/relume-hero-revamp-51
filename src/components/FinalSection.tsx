@@ -10,7 +10,7 @@ const FinalSection = () => {
           <div 
             className="w-full h-full absolute top-0 left-0 rounded-lg"
             style={{
-              backgroundImage: 'url(/lovable-uploads/ebedb1fe-18ec-44d8-badd-a735cd2db065.png)',
+              backgroundImage: 'url(/lovable-uploads/27383b8e-5bf7-409e-8dea-faee23161f1c.png)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat'
