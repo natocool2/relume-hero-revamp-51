@@ -5,7 +5,7 @@ import AutomationSection from "@/components/AutomationSection";
 import EmailMarketingSection from "@/components/EmailMarketingSection";
 import ContactSection from "@/components/ContactSection";
 import ServicesSection from "@/components/ServicesSection";
-import FinalSection from "@/components/FinalSection";
+
 import Footer from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 
@@ -17,7 +17,7 @@ const Index = () => {
       <AboutSection />
       <AdvantagesSection />
       <AutomationSection />
-      <FinalSection />
+      
       <EmailMarketingSection />
       <ServicesSection />
       <ContactSection />
