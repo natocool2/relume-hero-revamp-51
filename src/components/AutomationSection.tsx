@@ -48,7 +48,7 @@ const AutomationSection = () => {
         </div>
         
         {/* Image Section */}
-        <div className="w-full lg:w-[573px] h-64 md:h-72 lg:h-[400px] relative overflow-hidden rounded-lg">
+        <div className="w-full lg:w-[573px] h-80 md:h-96 lg:h-[500px] relative overflow-hidden rounded-lg">
           {/* Placeholder Background */}
           <div 
             className="w-full h-full absolute top-0 left-0 rounded-lg"
