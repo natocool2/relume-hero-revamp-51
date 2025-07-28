@@ -9,13 +9,13 @@ export const services = [
       "Modelos/planos de negócio", 
       "Gestão e administração",
       "CRMs/ERPs",
-      "Pitch decks"
+      "Apresentações de projecto"
     ]
   },
   {
-    category: "Projetos e Investimento",
+    category: "Projectos e Investimento",
     items: [
-      "Criação e apoio a projetos para financiamento",
+      "Criação e apoio a projectos para financiamento",
       "Criação e apoio à criação de modelos e planos de negócio",
       "Apoio a candidaturas para financiamento público, bancário e privado"
     ]

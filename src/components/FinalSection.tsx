@@ -48,20 +48,20 @@ const FinalSection = () => {
               
               {/* Title */}
                <h2 className="w-full text-white text-3xl md:text-4xl lg:text-[47px] font-medium leading-tight lg:leading-[51.7px]">
-                 Seu Departamento Tecnológico Externo
+                 O Seu Departamento Tecnológico Externo
                </h2>
             </div>
             
             {/* Description */}
             <div className="w-full">
                <p className="text-base md:text-[17px] font-medium leading-6 mb-6">
-                 <span className="text-white">Atuamos como o departamento tecnológico completo para empresas que não desejam ou não têm recursos para manter uma equipe interna de TI robusta.</span>
-                 <span className="text-[#B2B2B2]"> Desenvolvemos soluções tecnológicas à medida do seu modelo de negócios, com desenvolvimento e suporte contínuo adaptados às necessidades específicas de cada setor.</span>
+                  <span className="text-white">Actuamos como o departamento tecnológico completo para empresas que não desejam ou não têm recursos para manter uma equipa interna de TI robusta.</span>
+                  <span className="text-[#B2B2B2]"> Desenvolvemos soluções tecnológicas à medida do seu modelo de negócios, com desenvolvimento e suporte contínuo adaptados às necessidades específicas de cada sector.</span>
                </p>
                
                
                <div className="mb-6">
-                 <h3 className="text-white text-lg font-medium mb-4">Setores de Especialização:</h3>
+                 <h3 className="text-white text-lg font-medium mb-4">Sectores de Especialização:</h3>
                  <p className="text-[#B2B2B2] text-sm leading-relaxed">
                    Imobiliária • Hotelaria • Viagens e Turismo • Gestão e Administração • Financeira • Formação • Eventos • Saúde • Estética • Transportes • Energia e Ambiente
                  </p>

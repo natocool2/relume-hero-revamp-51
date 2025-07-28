@@ -199,7 +199,7 @@ export const NavbarDefaults: Props = {
   ],
   buttons: [
     {
-      title: "Entrar",
+      title: "Iniciar Sessão",
       variant: "secondary",
       size: "sm",
     },

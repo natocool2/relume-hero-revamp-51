@@ -89,7 +89,7 @@ const ContactSection = () => {
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full py-3"
                   size="lg"
                 >
-                  📨 Enviar mensagem
+                  📧 Enviar mensagem
                 </Button>
               </form>
             </motion.div>
