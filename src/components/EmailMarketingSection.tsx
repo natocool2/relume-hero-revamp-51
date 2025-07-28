@@ -11,25 +11,25 @@ const EmailMarketingSection = () => {
             <div className="flex flex-col gap-8 lg:gap-10">
               {/* Tag */}
               <div className="inline-block">
-                <span 
-                  className="text-xs font-mono font-normal leading-3 tracking-wider"
-                  style={{ color: 'rgba(255, 255, 255, 0.70)' }}
-                >
-                  [AUTOMATION]
-                </span>
+                 <span 
+                   className="text-xs font-mono font-normal leading-3 tracking-wider"
+                   style={{ color: 'rgba(255, 255, 255, 0.70)' }}
+                 >
+                   [AUTOMATIZAÇÃO]
+                 </span>
               </div>
               
               {/* Title and Description */}
               <div className="flex flex-col gap-5 lg:gap-6">
-                <h2 className="text-white text-3xl md:text-4xl lg:text-5xl xl:text-[47px] font-medium leading-tight lg:leading-[1.1]">
-                  Sophisticated Email Marketing Tools
-                </h2>
+                 <h2 className="text-white text-3xl md:text-4xl lg:text-5xl xl:text-[47px] font-medium leading-tight lg:leading-[1.1]">
+                   Ferramentas Sofisticadas de Email Marketing
+                 </h2>
                 
                 <div className="max-w-md lg:max-w-lg">
-                  <p className="text-white text-base lg:text-[17px] font-medium leading-relaxed">
-                    Streamline your email campaigns
-                    <span className="text-neutral-400"> by sending periodic emails to prospects and customers with our email automation feature.</span>
-                  </p>
+                   <p className="text-white text-base lg:text-[17px] font-medium leading-relaxed">
+                     Optimize as suas campanhas de email
+                     <span className="text-neutral-400"> enviando emails periódicos a potenciais clientes e clientes com a nossa funcionalidade de automatização de email.</span>
+                   </p>
                 </div>
               </div>
             </div>
@@ -69,9 +69,9 @@ const EmailMarketingSection = () => {
                 >
                   <Play className="w-4 h-4 text-white fill-white" />
                 </div>
-                <span className="text-white text-sm font-medium hidden sm:block">
-                  Learn more how to use
-                </span>
+                 <span className="text-white text-sm font-medium hidden sm:block">
+                   Saiba mais como usar
+                 </span>
               </div>
             </div>
           </div>

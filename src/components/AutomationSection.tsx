@@ -38,26 +38,26 @@ const AutomationSection = () => {
             <div className="w-full flex flex-col justify-start items-start gap-5">
               {/* Tag */}
               <div className="flex justify-center items-center">
-                <span 
-                  className="text-xs font-mono font-normal leading-3 tracking-wider"
-                  style={{ color: 'rgba(255, 255, 255, 0.70)' }}
-                >
-                  [INTELLIGENCE]
-                </span>
+                 <span 
+                   className="text-xs font-mono font-normal leading-3 tracking-wider"
+                   style={{ color: 'rgba(255, 255, 255, 0.70)' }}
+                 >
+                   [INTELIGÊNCIA]
+                 </span>
               </div>
               
               {/* Title */}
-              <h2 className="w-full text-white text-3xl md:text-4xl lg:text-[47px] font-medium leading-tight lg:leading-[51.7px]">
-                Smart Analytics and Insights
-              </h2>
+               <h2 className="w-full text-white text-3xl md:text-4xl lg:text-[47px] font-medium leading-tight lg:leading-[51.7px]">
+                 Análise Inteligente e Insights
+               </h2>
             </div>
             
             {/* Description */}
             <div className="w-full max-w-[501px]">
-              <p className="text-base md:text-[17px] font-medium leading-6">
-                <span className="text-white">Our customer segmentation tool</span>
-                <span className="text-[#B2B2B2]"> enables you to segment your customers into groups based on factors like age, gender, or shopping habits.</span>
-              </p>
+               <p className="text-base md:text-[17px] font-medium leading-6">
+                 <span className="text-white">A nossa ferramenta de segmentação de clientes</span>
+                 <span className="text-[#B2B2B2]"> permite segmentar os seus clientes em grupos baseados em fatores como idade, género ou hábitos de compra.</span>
+               </p>
             </div>
           </div>
           
@@ -68,14 +68,14 @@ const AutomationSection = () => {
               <div className="w-6 h-6 flex items-center justify-center">
                 <Globe size={18} color="white" />
               </div>
-              <div className="w-32 flex flex-col justify-start items-start">
-                <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
-                  Integrated with
-                </div>
-                <div className="w-full text-white text-base font-medium leading-[28.8px]">
-                  Web3 platforms
-                </div>
-              </div>
+               <div className="w-32 flex flex-col justify-start items-start">
+                 <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
+                   Integrado com
+                 </div>
+                 <div className="w-full text-white text-base font-medium leading-[28.8px]">
+                   Plataformas Web3
+                 </div>
+               </div>
             </div>
             
             {/* Blockchain Integration */}
@@ -83,14 +83,14 @@ const AutomationSection = () => {
               <div className="w-6 h-6 flex items-center justify-center">
                 <Database size={18} color="white" />
               </div>
-              <div className="w-32 flex flex-col justify-start items-start">
-                <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
-                  Integrated with
-                </div>
-                <div className="w-full text-white text-base font-medium leading-[28.8px]">
-                  Blockchains
-                </div>
-              </div>
+               <div className="w-32 flex flex-col justify-start items-start">
+                 <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
+                   Integrado com
+                 </div>
+                 <div className="w-full text-white text-base font-medium leading-[28.8px]">
+                   Blockchains
+                 </div>
+               </div>
             </div>
           </div>
         </div>

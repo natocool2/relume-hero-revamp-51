@@ -7,24 +7,24 @@ import {
 
 const faqs = [
   {
-    question: "How does Cosmofy use AI to optimize eCommerce revenue?",
-    answer: "Cosmofy leverages AI to analyze customer data, predict buying patterns, and optimize pricing strategies to maximize revenue."
+    question: "Como é que a LEAFCEL utiliza IA para otimizar a receita das empresas?",
+    answer: "A LEAFCEL utiliza IA para analisar dados de clientes, prever padrões de compra e otimizar estratégias de preços para maximizar a receita."
   },
   {
-    question: "What features does Cosmofy offer for personalized shopping experiences?",
-    answer: "Cosmofy provides AI-driven product recommendations, dynamic pricing, personalized marketing campaigns, and real-time customer behavior analysis to create unique shopping experiences for each customer."
+    question: "Que funcionalidades oferece a LEAFCEL para experiências personalizadas?",
+    answer: "A LEAFCEL fornece recomendações impulsionadas por IA, preços dinâmicos, campanhas de marketing personalizadas e análise de comportamento do cliente em tempo real para criar experiências únicas."
   },
   {
-    question: "How can businesses integrate Cosmofy into their existing systems?",
-    answer: "Cosmofy offers seamless integration through APIs, plugins for popular eCommerce platforms, and custom integration solutions that work with your existing technology stack."
+    question: "Como podem as empresas integrar a LEAFCEL nos seus sistemas existentes?",
+    answer: "A LEAFCEL oferece integração perfeita através de APIs, plugins para plataformas populares e soluções de integração personalizadas que funcionam com a sua stack tecnológica existente."
   },
   {
-    question: "What are the security measures in place for data protection at Cosmofy?",
-    answer: "We implement enterprise-grade security including end-to-end encryption, SOC 2 compliance, regular security audits, and GDPR compliance to ensure your data is protected at all times."
+    question: "Quais são as medidas de segurança em vigor para proteção de dados na LEAFCEL?",
+    answer: "Implementamos segurança de nível empresarial incluindo encriptação end-to-end, conformidade SOC 2, auditorias de segurança regulares e conformidade GDPR para garantir que os seus dados estão protegidos."
   },
   {
-    question: "How does Cosmofy support businesses in analyzing their sales performance?",
-    answer: "Cosmofy provides comprehensive analytics dashboards, real-time reporting, predictive insights, and customizable metrics to help businesses understand and optimize their sales performance."
+    question: "Como é que a LEAFCEL apoia as empresas na análise do seu desempenho de vendas?",
+    answer: "A LEAFCEL oferece dashboards analíticos abrangentes, relatórios em tempo real, insights preditivos e métricas personalizáveis para ajudar as empresas a compreender e otimizar o seu desempenho de vendas."
   }
 ];
 
@@ -39,26 +39,26 @@ const FAQSection = () => {
               <div className="w-full flex flex-col justify-start items-start gap-5">
                 {/* Tag */}
                 <div className="flex justify-center items-center">
-                  <span 
-                    className="text-xs font-mono font-normal leading-3 tracking-wider"
-                    style={{ color: 'rgba(255, 255, 255, 0.70)' }}
-                  >
-                    [FAQ]
-                  </span>
+                 <span 
+                   className="text-xs font-mono font-normal leading-3 tracking-wider"
+                   style={{ color: 'rgba(255, 255, 255, 0.70)' }}
+                 >
+                   [PERGUNTAS FREQUENTES]
+                 </span>
                 </div>
                 
                 {/* Title */}
-                <h2 className="w-full text-white text-3xl md:text-4xl lg:text-[47px] font-medium leading-tight lg:leading-[51.7px]">
-                  Frequently Asked Questions
-                </h2>
+                 <h2 className="w-full text-white text-3xl md:text-4xl lg:text-[47px] font-medium leading-tight lg:leading-[51.7px]">
+                   Perguntas Frequentes
+                 </h2>
               </div>
               
               {/* Description */}
               <div className="w-full max-w-[501px]">
-                <p className="text-base md:text-[17px] font-medium leading-6">
-                  <span className="text-white">Find answers to common questions about our platform</span>
-                  <span className="text-[#B2B2B2]"> with comprehensive explanations and detailed information to help you get started.</span>
-                </p>
+                 <p className="text-base md:text-[17px] font-medium leading-6">
+                   <span className="text-white">Encontre respostas a perguntas comuns sobre a nossa plataforma</span>
+                   <span className="text-[#B2B2B2]"> com explicações abrangentes e informação detalhada para o ajudar a começar.</span>
+                 </p>
               </div>
             </div>
           </div>

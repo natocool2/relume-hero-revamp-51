@@ -184,27 +184,27 @@ export const NavbarDefaults: Props = {
     alt: "LEAFCEL Logo",
   },
   navLinks: [
-    { title: "Home", url: "#" },
-    { title: "About", url: "#" },
-    { title: "Services", url: "#" },
+    { title: "Início", url: "#" },
+    { title: "Sobre", url: "#" },
+    { title: "Serviços", url: "#" },
     {
-      title: "More",
+      title: "Mais",
       url: "#",
       subMenuLinks: [
-        { title: "Portfolio", url: "#" },
+        { title: "Portfólio", url: "#" },
         { title: "Blog", url: "#" },
-        { title: "Contact", url: "#" },
+        { title: "Contacto", url: "#" },
       ],
     },
   ],
   buttons: [
     {
-      title: "Sign In",
+      title: "Entrar",
       variant: "secondary",
       size: "sm",
     },
     {
-      title: "Get Started",
+      title: "Começar",
       size: "sm",
     },
   ],

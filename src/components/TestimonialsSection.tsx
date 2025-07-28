@@ -17,24 +17,24 @@ const TestimonialsSection = () => {
           className="flex flex-col items-center justify-center max-w-[540px] mx-auto"
         >
           <div className="inline-block">
-            <span 
-              className="text-xs font-mono font-normal leading-3 tracking-wider pb-[10px]"
-              style={{ color: 'rgba(255, 255, 255, 0.70)' }}
-            >
-              [TESTIMONIALS]
-            </span>
+             <span 
+               className="text-xs font-mono font-normal leading-3 tracking-wider pb-[10px]"
+               style={{ color: 'rgba(255, 255, 255, 0.70)' }}
+             >
+               [TESTEMUNHOS]
+             </span>
           </div>
 
           <div className="flex flex-col gap-6 lg:gap-7 text-center">
-            <h2 className="text-white text-3xl md:text-4xl lg:text-5xl xl:text-[47px] font-medium leading-tight lg:leading-[1.1]">
-              What Our Users Say
-            </h2>
+             <h2 className="text-white text-3xl md:text-4xl lg:text-5xl xl:text-[47px] font-medium leading-tight lg:leading-[1.1]">
+               O que os Nossos Clientes Dizem
+             </h2>
             
             <div className="max-w-md lg:max-w-lg mx-auto">
-              <p className="text-white text-base lg:text-[17px] font-medium leading-relaxed">
-                See how our platform transforms businesses
-                <span className="text-neutral-400"> through real stories from satisfied customers and their success journeys.</span>
-              </p>
+               <p className="text-white text-base lg:text-[17px] font-medium leading-relaxed">
+                 Veja como a nossa plataforma transforma negócios
+                 <span className="text-neutral-400"> através de histórias reais de clientes satisfeitos e as suas jornadas de sucesso.</span>
+               </p>
             </div>
           </div>
         </motion.div>

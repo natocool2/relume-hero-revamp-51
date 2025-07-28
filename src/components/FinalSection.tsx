@@ -38,26 +38,26 @@ const FinalSection = () => {
             <div className="w-full flex flex-col justify-start items-start gap-5">
               {/* Tag */}
               <div className="flex justify-center items-center">
-                <span 
-                  className="text-xs font-mono font-normal leading-3 tracking-wider"
-                  style={{ color: 'rgba(255, 255, 255, 0.70)' }}
-                >
-                  [ANALYTICS]
-                </span>
+                 <span 
+                   className="text-xs font-mono font-normal leading-3 tracking-wider"
+                   style={{ color: 'rgba(255, 255, 255, 0.70)' }}
+                 >
+                   [ANÁLISE]
+                 </span>
               </div>
               
               {/* Title */}
-              <h2 className="w-full text-white text-3xl md:text-4xl lg:text-[47px] font-medium leading-tight lg:leading-[51.7px]">
-                Comprehensive Data Analytics
-              </h2>
+               <h2 className="w-full text-white text-3xl md:text-4xl lg:text-[47px] font-medium leading-tight lg:leading-[51.7px]">
+                 Análise Abrangente de Dados
+               </h2>
             </div>
             
             {/* Description */}
             <div className="w-full max-w-[501px]">
-              <p className="text-base md:text-[17px] font-medium leading-6">
-                <span className="text-white">Track user behavior and analyze data patterns</span>
-                <span className="text-[#B2B2B2]"> with comprehensive insights and detailed reporting to make informed business decisions.</span>
-              </p>
+               <p className="text-base md:text-[17px] font-medium leading-6">
+                 <span className="text-white">Acompanhe o comportamento do utilizador e analise padrões de dados</span>
+                 <span className="text-[#B2B2B2]"> com insights abrangentes e relatórios detalhados para tomar decisões empresariais informadas.</span>
+               </p>
             </div>
           </div>
           
@@ -68,14 +68,14 @@ const FinalSection = () => {
               <div className="w-6 h-6 flex items-center justify-center">
                 <Globe size={18} color="white" />
               </div>
-              <div className="w-32 flex flex-col justify-start items-start">
-                <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
-                  Integrated with
-                </div>
-                <div className="w-full text-white text-base font-medium leading-[28.8px]">
-                  Data platforms
-                </div>
-              </div>
+               <div className="w-32 flex flex-col justify-start items-start">
+                 <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
+                   Integrado com
+                 </div>
+                 <div className="w-full text-white text-base font-medium leading-[28.8px]">
+                   Plataformas de dados
+                 </div>
+               </div>
             </div>
             
             {/* CRM Integration */}
@@ -83,14 +83,14 @@ const FinalSection = () => {
               <div className="w-6 h-6 flex items-center justify-center">
                 <Database size={18} color="white" />
               </div>
-              <div className="w-32 flex flex-col justify-start items-start">
-                <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
-                  Integrated with
-                </div>
-                <div className="w-full text-white text-base font-medium leading-[28.8px]">
-                  Business tools
-                </div>
-              </div>
+               <div className="w-32 flex flex-col justify-start items-start">
+                 <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
+                   Integrado com
+                 </div>
+                 <div className="w-full text-white text-base font-medium leading-[28.8px]">
+                   Ferramentas empresariais
+                 </div>
+               </div>
             </div>
           </div>
         </div>
