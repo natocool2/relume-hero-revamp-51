@@ -42,53 +42,93 @@ const FinalSection = () => {
                    className="text-xs font-mono font-normal leading-3 tracking-wider"
                    style={{ color: 'rgba(255, 255, 255, 0.70)' }}
                  >
-                   [ANÁLISE]
+                   [CONSULTORIA TECNOLÓGICA]
                  </span>
               </div>
               
               {/* Title */}
                <h2 className="w-full text-white text-3xl md:text-4xl lg:text-[47px] font-medium leading-tight lg:leading-[51.7px]">
-                 Análise Abrangente de Dados
+                 Seu Departamento Tecnológico Externo
                </h2>
             </div>
             
             {/* Description */}
-            <div className="w-full max-w-[501px]">
-               <p className="text-base md:text-[17px] font-medium leading-6">
-                 <span className="text-white">Acompanhe o comportamento do utilizador e analise padrões de dados</span>
-                 <span className="text-[#B2B2B2]"> com insights abrangentes e relatórios detalhados para tomar decisões empresariais informadas.</span>
+            <div className="w-full">
+               <p className="text-base md:text-[17px] font-medium leading-6 mb-6">
+                 <span className="text-white">Atuamos como o departamento tecnológico completo para empresas que não desejam ou não têm recursos para manter uma equipe interna de TI robusta.</span>
+                 <span className="text-[#B2B2B2]"> Desenvolvemos soluções tecnológicas à medida do seu modelo de negócios, com desenvolvimento e suporte contínuo adaptados às necessidades específicas de cada setor.</span>
                </p>
-            </div>
-          </div>
-          
-          {/* Integration Cards */}
-          <div className="flex flex-col sm:flex-row justify-start items-start gap-4">
-            {/* Analytics Integration */}
-            <div className="p-4 rounded-2xl border border-white/10 flex justify-start items-start gap-3">
-              <div className="w-6 h-6 flex items-center justify-center">
-                <Globe size={18} color="white" />
-              </div>
-               <div className="w-32 flex flex-col justify-start items-start">
-                 <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
-                   Integrado com
-                 </div>
-                 <div className="w-full text-white text-base font-medium leading-[28.8px]">
-                   Plataformas de dados
+               
+               <div className="mb-6">
+                 <h3 className="text-white text-lg font-medium mb-4">Nossas Especialidades:</h3>
+                 <div className="space-y-3">
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Plataformas Web Enterprise</span> - Arquiteturas API-first com redução de 40% no TCO e 60% mais rápidas em integrações
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Aplicações Cloud-Native</span> - Sistemas distribuídos com CI/CD que deployam 46x mais frequentemente
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Agentes de IA Inteligentes</span> - Soluções de AI/ML com explainability, aumentando adoção em 80% e performance em 40%
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Sistemas de E-commerce</span> - Plataformas JAMstack e PWA com aumento de 25% no engagement
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">CRM/ERP Integrados</span> - Sistemas unificados que reduzem overhead administrativo em 40%
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">APIs e Microserviços</span> - Arquiteturas modulares com 75% de melhoria no ciclo de desenvolvimento
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Blockchain e Web3</span> - Soluções descentralizadas para rastreabilidade e smart contracts
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Automação Inteligente</span> - RPA e workflows que reduzem custos operacionais em 30%
+                     </p>
+                   </div>
                  </div>
                </div>
-            </div>
-            
-            {/* CRM Integration */}
-            <div className="p-4 rounded-2xl border border-white/10 flex justify-start items-start gap-3">
-              <div className="w-6 h-6 flex items-center justify-center">
-                <Database size={18} color="white" />
-              </div>
-               <div className="w-32 flex flex-col justify-start items-start">
-                 <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
-                   Integrado com
-                 </div>
-                 <div className="w-full text-white text-base font-medium leading-[28.8px]">
-                   Ferramentas empresariais
+               
+               <div className="mb-6">
+                 <h3 className="text-white text-lg font-medium mb-4">Setores de Especialização:</h3>
+                 <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                   Imobiliária • Hotelaria • Viagens e Turismo • Gestão e Administração • Financeira • Formação • Eventos • Saúde • Estética • Transportes • Energia e Ambiente
+                 </p>
+               </div>
+               
+               <div>
+                 <h3 className="text-white text-lg font-medium mb-4">Standards e Certificações:</h3>
+                 <div className="flex flex-wrap gap-2">
+                   <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">ISO 42001 AI Management</span>
+                   <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">WCAG 2.1</span>
+                   <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">OAuth 2.0</span>
+                   <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">OWASP Security</span>
+                   <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">GraphQL</span>
+                   <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">MLOps Best Practices</span>
                  </div>
                </div>
             </div>
