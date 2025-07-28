@@ -64,7 +64,7 @@ const AutomationSection = () => {
           <div 
             className="w-full h-full absolute top-0 left-0 rounded-lg"
             style={{
-              background: 'linear-gradient(360deg, black 0%, rgba(0, 0, 0, 0.05) 25%, rgba(0, 0, 0, 0) 40%)'
+              background: 'linear-gradient(360deg, black 0%, rgba(0, 0, 0, 0.05) 15%, rgba(0, 0, 0, 0) 25%)'
             }}
           ></div>
           <div 
