@@ -59,59 +59,6 @@ const AutomationSection = () => {
                  <span className="text-[#B2B2B2]"> através de um acompanhamento integral em cada fase da jornada empresarial. Desde a validação inicial da ideia, utilizando metodologias Lean e Design Thinking, até à consolidação no mercado com estratégias de crescimento comprovadas.</span>
                </p>
                
-               <div className="mb-6">
-                 <h3 className="text-white text-lg font-medium mb-4">Nossa Abordagem em 8 Fases:</h3>
-                 <div className="space-y-3">
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Inteligência de Negócio</span> - Planeamento estratégico com análise de mercado e modelação financeira multi-cenário
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Criação de Projetos</span> - Estruturação de iniciativas investíveis com frameworks LogFrame e Theory of Change
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Captação de Investimento</span> - Preparação para funding público e privado, com business plans que aumentam em 65% as chances de financiamento
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Estruturação Legal</span> - Registo de empresas, licenciamento e proteção de propriedade intelectual
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Marketing Estratégico</span> - Desenvolvimento de marca e go-to-market strategies baseadas em validação de mercado
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Gestão e Administração</span> - Implementação de sistemas OKR, governança corporativa e processos otimizados
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Networking e Parcerias</span> - Conexão com ecossistemas de inovação e parceiros estratégicos
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Formação Executiva</span> - Capacitação contínua da equipa de liderança
-                     </p>
-                   </div>
-                 </div>
-               </div>
             </div>
           </div>
           
