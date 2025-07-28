@@ -19,8 +19,8 @@ const Index = () => {
       <AutomationSection />
       <FinalSection />
       <EmailMarketingSection />
-      <ContactSection />
       <ServicesSection />
+      <ContactSection />
       <Footer />
     </div>
   );
