@@ -36,61 +36,94 @@ const AutomationSection = () => {
         <div className="w-full lg:w-[559px] flex flex-col justify-start items-start gap-10">
           <div className="w-full flex flex-col justify-start items-start gap-8">
             <div className="w-full flex flex-col justify-start items-start gap-5">
-              {/* Tag */}
-              <div className="flex justify-center items-center">
+               {/* Tag */}
+               <div className="flex justify-center items-center">
                  <span 
                    className="text-xs font-mono font-normal leading-3 tracking-wider"
                    style={{ color: 'rgba(255, 255, 255, 0.70)' }}
                  >
-                   [INTELIGÊNCIA]
+                   [CONSULTORIA EMPRESARIAL]
                  </span>
-              </div>
-              
-              {/* Title */}
-               <h2 className="w-full text-white text-3xl md:text-4xl lg:text-[47px] font-medium leading-tight lg:leading-[51.7px]">
-                 Análise Inteligente e Insights
-               </h2>
+               </div>
+               
+               {/* Title */}
+                <h2 className="w-full text-white text-3xl md:text-4xl lg:text-[47px] font-medium leading-tight lg:leading-[51.7px]">
+                  Da Ideia ao Sucesso no Mercado
+                </h2>
             </div>
             
             {/* Description */}
-            <div className="w-full max-w-[501px]">
-               <p className="text-base md:text-[17px] font-medium leading-6">
-                 <span className="text-white">A nossa ferramenta de segmentação de clientes</span>
-                 <span className="text-[#B2B2B2]"> permite segmentar os seus clientes em grupos baseados em fatores como idade, género ou hábitos de compra.</span>
+            <div className="w-full">
+               <p className="text-base md:text-[17px] font-medium leading-6 mb-6">
+                 <span className="text-white">Transformamos visões empreendedoras em empresas sustentáveis</span>
+                 <span className="text-[#B2B2B2]"> através de um acompanhamento integral em cada fase da jornada empresarial. Desde a validação inicial da ideia, utilizando metodologias Lean e Design Thinking, até à consolidação no mercado com estratégias de crescimento comprovadas.</span>
                </p>
+               
+               <div className="mb-6">
+                 <h3 className="text-white text-lg font-medium mb-4">Nossa Abordagem em 8 Fases:</h3>
+                 <div className="space-y-3">
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Inteligência de Negócio</span> - Planeamento estratégico com análise de mercado e modelação financeira multi-cenário
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Criação de Projetos</span> - Estruturação de iniciativas investíveis com frameworks LogFrame e Theory of Change
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Captação de Investimento</span> - Preparação para funding público e privado, com business plans que aumentam em 65% as chances de financiamento
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Estruturação Legal</span> - Registo de empresas, licenciamento e proteção de propriedade intelectual
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Marketing Estratégico</span> - Desenvolvimento de marca e go-to-market strategies baseadas em validação de mercado
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Gestão e Administração</span> - Implementação de sistemas OKR, governança corporativa e processos otimizados
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Networking e Parcerias</span> - Conexão com ecossistemas de inovação e parceiros estratégicos
+                     </p>
+                   </div>
+                   <div className="flex items-start gap-3">
+                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
+                       <span className="text-white font-medium">Formação Executiva</span> - Capacitação contínua da equipa de liderança
+                     </p>
+                   </div>
+                 </div>
+               </div>
             </div>
           </div>
           
-          {/* Integration Cards */}
-          <div className="flex flex-col sm:flex-row justify-start items-start gap-4">
-            {/* Web3 Integration */}
-            <div className="p-4 rounded-2xl border border-white/10 flex justify-start items-start gap-3">
-              <div className="w-6 h-6 flex items-center justify-center">
-                <Globe size={18} color="white" />
-              </div>
-               <div className="w-32 flex flex-col justify-start items-start">
-                 <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
-                   Integrado com
-                 </div>
-                 <div className="w-full text-white text-base font-medium leading-[28.8px]">
-                   Plataformas Web3
-                 </div>
-               </div>
-            </div>
-            
-            {/* Blockchain Integration */}
-            <div className="p-4 rounded-2xl border border-white/10 flex justify-start items-start gap-3">
-              <div className="w-6 h-6 flex items-center justify-center">
-                <Database size={18} color="white" />
-              </div>
-               <div className="w-32 flex flex-col justify-start items-start">
-                 <div className="w-full text-[#ACABB2] text-sm font-normal leading-[25.2px]">
-                   Integrado com
-                 </div>
-                 <div className="w-full text-white text-base font-medium leading-[28.8px]">
-                   Blockchains
-                 </div>
-               </div>
+          {/* Methodology */}
+          <div className="w-full">
+            <h3 className="text-white text-lg font-medium mb-4">Metodologia Baseada em:</h3>
+            <div className="flex flex-wrap gap-3">
+              <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">Y Combinator</span>
+              <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">500 Startups</span>
+              <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">Techstars</span>
+              <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">IKEA Democratic Design</span>
+              <span className="px-3 py-2 text-sm bg-white/5 border border-white/10 rounded-lg text-[#B2B2B2]">Google OKR System</span>
             </div>
           </div>
         </div>
