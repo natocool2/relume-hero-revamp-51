@@ -53,7 +53,7 @@ const AutomationSection = () => {
           <div 
             className="w-full h-full absolute top-0 left-0 rounded-lg"
             style={{
-              backgroundImage: 'url(/lovable-uploads/7403a0d2-ac52-4d0e-abd4-032c68e68284.png)',
+              backgroundImage: 'url(/lovable-uploads/a465654e-c84b-484a-8023-cf30b1b49e41.png)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat'
