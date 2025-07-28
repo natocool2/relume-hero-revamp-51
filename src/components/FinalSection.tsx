@@ -59,59 +59,6 @@ const FinalSection = () => {
                  <span className="text-[#B2B2B2]"> Desenvolvemos soluções tecnológicas à medida do seu modelo de negócios, com desenvolvimento e suporte contínuo adaptados às necessidades específicas de cada setor.</span>
                </p>
                
-               <div className="mb-6">
-                 <h3 className="text-white text-lg font-medium mb-4">Nossas Especialidades:</h3>
-                 <div className="space-y-3">
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Plataformas Web Enterprise</span> - Arquiteturas API-first com redução de 40% no TCO e 60% mais rápidas em integrações
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Aplicações Cloud-Native</span> - Sistemas distribuídos com CI/CD que deployam 46x mais frequentemente
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Agentes de IA Inteligentes</span> - Soluções de AI/ML com explainability, aumentando adoção em 80% e performance em 40%
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Sistemas de E-commerce</span> - Plataformas JAMstack e PWA com aumento de 25% no engagement
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">CRM/ERP Integrados</span> - Sistemas unificados que reduzem overhead administrativo em 40%
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">APIs e Microserviços</span> - Arquiteturas modulares com 75% de melhoria no ciclo de desenvolvimento
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Blockchain e Web3</span> - Soluções descentralizadas para rastreabilidade e smart contracts
-                     </p>
-                   </div>
-                   <div className="flex items-start gap-3">
-                     <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
-                     <p className="text-[#B2B2B2] text-sm leading-relaxed">
-                       <span className="text-white font-medium">Automação Inteligente</span> - RPA e workflows que reduzem custos operacionais em 30%
-                     </p>
-                   </div>
-                 </div>
-               </div>
                
                <div className="mb-6">
                  <h3 className="text-white text-lg font-medium mb-4">Setores de Especialização:</h3>
