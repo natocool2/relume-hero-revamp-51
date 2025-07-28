@@ -61,7 +61,12 @@ const AutomationSection = () => {
           ></div>
           
           {/* Gradient Overlays */}
-          {/* Minimal bottom gradient removed to show full image */}
+          <div 
+            className="w-full h-full absolute top-0 left-0 rounded-lg"
+            style={{
+              background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0) 60%)'
+            }}
+          ></div>
           <div 
             className="w-full h-full absolute top-0 left-0 rounded-lg"
             style={{
