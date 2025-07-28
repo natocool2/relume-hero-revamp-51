@@ -55,7 +55,7 @@ const AutomationSection = () => {
             style={{
               backgroundImage: 'url(/lovable-uploads/a465654e-c84b-484a-8023-cf30b1b49e41.png)',
               backgroundSize: 'cover',
-              backgroundPosition: 'top',
+              backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat'
             }}
           ></div>
