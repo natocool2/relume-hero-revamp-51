@@ -2,7 +2,7 @@ import { Globe, Database } from "lucide-react";
 
 const FinalSection = () => {
   return (
-    <section className="w-full py-16 px-4 md:px-8 lg:px-16" style={{ maxWidth: '1440px', margin: '0 auto' }}>
+    <section id="tecnologia" className="w-full py-16 px-4 md:px-8 lg:px-16" style={{ maxWidth: '1440px', margin: '0 auto' }}>
       <div className="w-full flex flex-col-reverse lg:flex-row justify-start items-center gap-11 lg:gap-20">
         {/* Image Section */}
         <div className="w-full lg:w-[573px] h-64 md:h-80 lg:h-[581px] relative overflow-hidden rounded-lg">

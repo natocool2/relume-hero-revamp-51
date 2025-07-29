@@ -179,32 +179,27 @@ const SubMenu = ({ navLink, isMobile }: { navLink: NavLink; isMobile: boolean })
 
 export const NavbarDefaults: Props = {
   logo: {
-    url: "#",
+    url: "#hero",
     src: "/lovable-uploads/44f5d732-5302-466d-ae82-1dc4e5945bf4.png",
     alt: "LEAFCEL Logo",
   },
   navLinks: [
-    { title: "Início", url: "#" },
-    { title: "Sobre", url: "#" },
-    { title: "Serviços", url: "#" },
-    {
-      title: "Mais",
-      url: "#",
-      subMenuLinks: [
-        { title: "Portfólio", url: "#" },
-        { title: "Blog", url: "#" },
-        { title: "Contacto", url: "#" },
-      ],
-    },
+    { title: "Início", url: "#hero" },
+    { title: "Sobre", url: "#sobre" },
+    { title: "Soluções", url: "#solucoes" },
+    { title: "Consultoria", url: "#consultoria" },
+    { title: "Tecnologia", url: "#tecnologia" },
+    { title: "Serviços", url: "#servicos" },
+    { title: "Contacto", url: "#contacto" },
   ],
   buttons: [
     {
-      title: "Iniciar Sessão",
+      title: "Diagnóstico Gratuito",
       variant: "secondary",
       size: "sm",
     },
     {
-      title: "Começar",
+      title: "Começar Projeto",
       size: "sm",
     },
   ],

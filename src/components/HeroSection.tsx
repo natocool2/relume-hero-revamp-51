@@ -63,7 +63,7 @@ const HeroSection = ({
   }, [line1, line2]);
 
   return (
-    <div className="min-h-screen text-foreground relative mx-auto" style={{ backgroundColor: '#000000', maxWidth: '1440px' }}>
+    <div id="hero" className="min-h-screen text-foreground relative mx-auto" style={{ backgroundColor: '#000000', maxWidth: '1440px' }}>
       {/* Spline Background */}
       <div className="absolute inset-0 z-0 w-full h-full pointer-events-auto translate-x-0 translate-y-[-5%] md:translate-x-[13%] md:translate-y-[-22%]">
         <Spline 

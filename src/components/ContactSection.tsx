@@ -6,7 +6,7 @@ import { Mail, Phone, MessageCircle } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section className="w-full mx-auto py-28 px-4 md:px-16" style={{ backgroundColor: '#000000', maxWidth: '1440px' }}>
+    <section id="contacto" className="w-full mx-auto py-28 px-4 md:px-16" style={{ backgroundColor: '#000000', maxWidth: '1440px' }}>
       <div className="max-w-6xl mx-auto">
         <motion.div 
           className="space-y-16"

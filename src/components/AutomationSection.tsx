@@ -2,7 +2,7 @@ import { Globe, Database } from "lucide-react";
 
 const AutomationSection = () => {
   return (
-    <section className="w-full py-16 px-4 md:px-8 lg:px-16" style={{ maxWidth: '1440px', margin: '0 auto' }}>
+    <section id="consultoria" className="w-full py-16 px-4 md:px-8 lg:px-16" style={{ maxWidth: '1440px', margin: '0 auto' }}>
       <div className="w-full flex flex-col lg:flex-row justify-start items-center gap-11 lg:gap-20">
         {/* Content Section */}
         <div className="w-full lg:w-[559px] flex flex-col justify-start items-start gap-10">

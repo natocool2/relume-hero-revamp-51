@@ -7,7 +7,7 @@ const thirdColumn = services.slice(6, 8);
 
 const ServicesSection = () => {
   return (
-    <section className="bg-background my-20 relative">
+    <section id="servicos" className="bg-background my-20 relative">
       <div className="container z-10 mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

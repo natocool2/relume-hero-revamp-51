@@ -43,7 +43,7 @@ const links = [
 
 const AdvantagesSection = () => {
   return (
-    <section className="w-full mx-auto pt-16 pb-[150px] px-4 md:px-16" style={{ backgroundColor: '#000000', maxWidth: '1440px' }}>
+    <section id="solucoes" className="w-full mx-auto pt-16 pb-[150px] px-4 md:px-16" style={{ backgroundColor: '#000000', maxWidth: '1440px' }}>
       <div className="w-full mx-auto">
         <motion.div 
           className="flex flex-col items-start gap-16"
