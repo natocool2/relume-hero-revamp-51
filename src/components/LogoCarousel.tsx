@@ -47,11 +47,11 @@ export const LogoCarousel = (props: LogoCarouselProps) => {
 export const LogoCarouselDefaults: Props = {
   heading: "",
   logos: [
-    { src: "/lovable-uploads/ecf84f20-2c15-4d55-b845-91045ca82703.png", alt: "SpringPrime Technologies" },
-    { src: "/lovable-uploads/06b6f2be-9071-48a7-8264-c69f5430a671.png", alt: "EasynetPro" },
-    { src: "/lovable-uploads/af3b1e26-10ff-4470-b979-355fc5a81b90.png", alt: "inGENIOUS" },
-    { src: "/lovable-uploads/9677caad-6d64-42fa-8531-93ecfed4e688.png", alt: "Enengin" },
-    { src: "/lovable-uploads/aa8b0632-ff0c-41e4-afef-36ccadafe69f.png", alt: "Leafcel" },
-    { src: "/lovable-uploads/c3608685-1281-4965-969c-0489ebe48f92.png", alt: "CloudinTec" },
+    { src: "/lovable-uploads/5555e371-ef07-428d-9a49-cc372af9709f.png", alt: "EasynetPro" },
+    { src: "/lovable-uploads/db6d467a-4359-40d0-be32-67d715ada054.png", alt: "inGENIOUS" },
+    { src: "/lovable-uploads/3c9724f9-4e0f-4d73-95fc-146c5d0a8fb6.png", alt: "ENENGIN" },
+    { src: "/lovable-uploads/fadd5a44-0360-4764-85b3-c450a0c5aa1e.png", alt: "LEAFCEL" },
+    { src: "/lovable-uploads/b8929c8d-8754-4a7a-983c-f43a82d15e8a.png", alt: "SpringPrime Technologies" },
+    { src: "/lovable-uploads/6d11d9e3-7ce4-4c34-ac8f-507421e08e5f.png", alt: "CloudinTec" },
   ],
 };
