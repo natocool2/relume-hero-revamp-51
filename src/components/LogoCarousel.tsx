@@ -60,7 +60,7 @@ export const LogoCarouselDefaults: Props = {
     { src: "/lovable-uploads/5555e371-ef07-428d-9a49-cc372af9709f.png", alt: "EasynetPro" },
     { src: "/lovable-uploads/db6d467a-4359-40d0-be32-67d715ada054.png", alt: "inGENIOUS" },
     { src: "/lovable-uploads/d799f7c7-3c9f-4ef5-9219-061c64a65443.png", alt: "ENENGIN" },
-    { src: "/lovable-uploads/fadd5a44-0360-4764-85b3-c450a0c5aa1e.png", alt: "LEAFCEL" },
+    { src: "/lovable-uploads/e64719a9-e152-401d-9fd5-8b88fddcb3de.png", alt: "LEAFCEL" },
     { src: "/lovable-uploads/b23b2bb9-2e9e-4ae2-a04d-fed5f977e9f4.png", alt: "SpringPrime Technologies" },
     { src: "/lovable-uploads/6d11d9e3-7ce4-4c34-ac8f-507421e08e5f.png", alt: "CloudinTec" },
   ],
