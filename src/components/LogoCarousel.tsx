@@ -29,14 +29,24 @@ export const LogoCarousel = (props: LogoCarouselProps) => {
           .fill(0)
           .map((_, index) => (
             <div key={index} className="flex shrink-0 animate-loop-horizontally items-center">
-              {logos.map((logo, logoIndex) => (
-                <img
-                  key={logoIndex}
-                  className="mx-7 w-[220px] shrink-0 md:mx-10"
-                  src={logo.src}
-                  alt={logo.alt}
-                />
-              ))}
+              {logos.map((logo, logoIndex) => {
+                console.log('Loading logo:', logo.src, logo.alt);
+                return (
+                  <img
+                    key={logoIndex}
+                    className="mx-7 w-[220px] shrink-0 md:mx-10"
+                    src={logo.src}
+                    alt={logo.alt}
+                    onError={(e) => {
+                      console.error('Failed to load logo:', logo.src);
+                      e.currentTarget.style.border = '2px solid red';
+                    }}
+                    onLoad={() => {
+                      console.log('Successfully loaded logo:', logo.src);
+                    }}
+                  />
+                );
+              })}
             </div>
           ))}
       </div>
