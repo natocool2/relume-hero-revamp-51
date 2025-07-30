@@ -75,7 +75,7 @@ const Footer = () => {
             © 2025 LEAFCEL. Todos os direitos reservados.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-[#B2B2B2] text-sm hover:text-white transition-colors">Política de Privacidade</a>
+            <a href="/politica-privacidade" className="text-[#B2B2B2] text-sm hover:text-white transition-colors">Política de Privacidade</a>
             <a href="#" className="text-[#B2B2B2] text-sm hover:text-white transition-colors">Termos de Uso</a>
           </div>
         </div>
